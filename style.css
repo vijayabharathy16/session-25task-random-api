@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 30px 0;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+.nav-item{
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: #dcdde1;
+    color:#262626;
+}
+.main{
+    position: relative;
+    background-image: linear-gradient(rgba(2,2,3,2),rgba(18, 19, 31, 0.5)),url(w516r5.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+    text-align: center;
+}
+.main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #dcdde1;
+    font-weight: bold;
+}
+.main p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: #dcdde1;
+    text-align: center;
+}
+button{
+    position: relative;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: rgb(196, 209, 196);
+    font-size: 18px;
+
+}
+button:hover{
+    background-color: rgb(95, 104, 95);
+    color: wheat;
+}
+.content {
+    display: inline-block;
+    text-align: start;
+    margin: 40px 0 0 0;
+}
+.content h4{
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #2a2b2f;
+    font-weight: bold;
+}
+.content p{
+    padding: 12px 0 0 0;
+    font-size: 17px;
+    opacity: 0.9;
+}
+.box-part #answer img{
+    width:650px;
+    height: 400px;
+    padding: 12px;
+    margin-top: 7%;
+    object-fit: cover;
+}
+.box-part .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-family: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
